@@ -107,78 +107,61 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Sumanth's professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sumanth's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your project, Sumanth is the ideal choice.",
+      name: "Raghava Rao",
+      title: "Sr. Manager Software Development at AMD",
+      image: "/manage1.png",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Sumanth on our website was a breath of fresh air. His creative vision and keen attention to detail resulted in a visually stunning site that perfectly captures our brand identity, leading to a significant increase in website traffic and customer engagement.",
+      name: "Sai Subramanyam",
+      title: "Senior Manager at Cognizant",
+      image: "/profile.svg",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "cognizant",
+      img: "/ctslogo.png",
+      nameImg: "/ctsname.png",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "amd",
+      img: "/amdlogo.png",
+      nameImg: "/amdname.png",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "spanidea",
+      img: "/spanlogo.png",
+      nameImg: "/spanname.png",
     },
   ];
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Programmer Analyst Trainee",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Programmer Analyst",
+      desc: "Developed and maintained web application using React, ensuring high performance and seamless user experience across devices.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Software Engineer",
+      desc: "Developed responsive, user-centered web application with latest web technologies, optimizing performance, accessibility, and seamless API integrations.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
   ];
