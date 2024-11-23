@@ -5,18 +5,21 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import { useRouter } from "next/navigation"; // Updated import path
+import { useCallback } from "react";
 
 const RecentProjects = () => {
   const router = useRouter();
 
-  const handleCardClick = (link: string) => {
-    // Check if link is external or internal
-    if (link.startsWith("http")) {
-      window.open(link, "_blank"); // Opens external links in a new tab
-    } else {
-      router.push(link); // For internal links
+  const handleCardClick = useCallback((link: string) => {
+    if (typeof window !== "undefined") {
+      // Ensure this runs only in the browser
+      if (link.startsWith("http")) {
+        window.open(link, "_blank"); // Open external links in a new tab
+      } else {
+        router.push(link); // For internal links
+      }
     }
-  }
+  }, [router]);
 
   return (
     <div className="py-20" id="projects">
